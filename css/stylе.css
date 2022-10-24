@@ -1,0 +1,77 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.company-name {
+    color: #4A00E0;
+    font-weight: bold;
+}
+
+.registr-log {
+    text-align: center;
+
+}
+
+
+input[type="text"] {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid ;
+    border-color: #B5B8B1;
+    outline: none;
+    box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+background-clip: padding-box;
+margin-bottom: 20px;
+
+}
+
+
+.inputr1{
+    margin-bottom: 50px;
+}
+
+input:focus{
+color: #212529;
+    background-color: #fff;
+    border-color: #bdbdbd;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(158, 158, 158, 0.25);
+}
+
+
+
+
+.bbra {
+font-size: 20px;
+    color: white;
+    background: #808080;
+    text-decoration: none;
+    padding: 15px 80px;
+    border-radius: 5px;
+    background-size: 200%;
+    transition: .5s;
+    border-width: 5cm;
+    margin: 100px;
+    
+}
+
+.bbra:hover{
+    background-color: blue;
+
+}
+
+
+.start {
+    color: black;
+}
+
+::-webkit-input-placeholder {
+
+    color: black;
+}
