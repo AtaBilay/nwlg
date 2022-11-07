@@ -34,7 +34,7 @@ input[type="text"] {
 }
 
 .inputr{
-    
+    width:40px;
     margin-left: 50;
         margin-left: 5px;
         padding-left: 5px;
@@ -44,6 +44,7 @@ input[type="text"] {
 }
 
 .inputr2{
+    width: 217px;
     margin-left: px;
    
     padding-left: px;
