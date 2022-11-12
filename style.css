@@ -1,15 +1,25 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans JP', sans-serif;
 }
 
 
 .custom {
 text-align: center;
+width: bold;
+height: 2px;
+}
+
+.step{
+    
+ font-size: 10px;
+text-align: center;
+color:#B5B8B1 ;
+height: 1px;
 }
 
 
 .company-name {
-    color: #4A00E0;
+    color: red;
     font-weight: bold;
 }
 
@@ -26,15 +36,16 @@ input[type="text"] {
     border-color: #B5B8B1;
     outline: none;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'IBM Plex Sans JP', sans-serif;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
     background-clip: padding-box;
     margin-bottom: 20px;
+    
 
 }
 
 .inputr{
-    width:40px;
+    width:50px;
     margin-left: 50;
         margin-left: 5px;
         padding-left: 5px;
@@ -44,9 +55,9 @@ input[type="text"] {
 }
 
 .inputr2{
-    width: 217px;
+    width: 210px;
     margin-left: px;
-   
+    padding-left: 10px;
     padding-left: px;
     padding-right: 5px;
     padding-bottom: 10px;
@@ -54,9 +65,18 @@ input[type="text"] {
 }
 
 .inputr1 {
-    margin-bottom: 50px;
+    font-family: 'IBM Plex Sans JP', sans-serif;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background-clip: padding-box;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    outline: none;
+    border-color: #B5B8B1;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-bottom: 10px;
     padding-left: 10px;
-    padding-right: 95px;    
+    width: 270px;   
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -74,15 +94,16 @@ input:focus {
 
 .bbra {
     font-size: 20px;
-    color: white;
-    background: #808080;
+    color: rgb(255, 253, 253);
+    background: #e4e2e2;
     text-decoration: none;
-    padding: 15px 80px;
+    padding: 10px 111px;
     border-radius: 5px;
     background-size: 200%;
     transition: .5s;
     border-width: 5cm;
     margin: 100px;
+    
 
 }
 
@@ -98,14 +119,16 @@ input:focus {
 
 ::-webkit-input-placeholder {
 
-    color: black;
+    color: gray;
 }
 
 .txt{
-   margin-left: 40px;
+  
     color: gray;
+    display: inline-block;
 }
 
 .link{
     text-decoration: none;
+    color: blue;
 }
